@@ -1,6 +1,6 @@
 # About
 
-TaskNotes issue for this bug is [here](https://github.com/callumalpass/tasknotes/issues/583).
+TaskNotes issue for this bug is callumalpass/tasknotes#583.
 
 This GitHub repo contains an obsidian vault with a minimal setup that demonstrates a bug that happens when [TaskNotes](https://github.com/callumalpass/tasknotes) 3.22.1 uses a template that contains an empty `reminders` property in yaml frontmatter.
 
