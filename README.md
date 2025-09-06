@@ -2,6 +2,8 @@
 
 This GitHub repo contains an obsidian vault with a minimal setup that demonstrates a bug that happens when [TaskNotes](https://github.com/callumalpass/tasknotes) 3.22.1 uses a template that contains an empty `reminders` property in yaml frontmatter.
 
+Error is `TypeError: Cannot read properties of null (reading 'id')`.
+
 ---
 # Environment
 
@@ -55,7 +57,7 @@ tags:
 
 1. In Obsidian menu bar select `View --> Toggle Developer Tools`. Make sure Console window is open in Developer Tools.
 2. In Obsidian settings, in `Community plugins`, toggle TaskNotes off and back on
-3. Observe error in Developer Tools Console. The error is coming from /src/
+3. Observe error in Developer Tools Console:
 
 ```
 plugin:tasknotes:151 Error during post-layout initialization: TypeError: Cannot read properties of null (reading 'id')
