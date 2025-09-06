@@ -67,3 +67,8 @@ plugin:tasknotes:151 Error during post-layout initialization: TypeError: Cannot 
 
 - The error is being thrown from a try block starting on [line #329 of src/main.ts in commit hash 4b252c9](https://github.com/callumalpass/tasknotes/blob/4b252c9033b903d5352028ba45a5829f837174ea/src/main.ts#L329)
 
+---
+
+# Workaround
+
+- Instead of `reminders:`, put `reminders: []` in the template.
