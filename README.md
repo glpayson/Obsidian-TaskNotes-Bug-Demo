@@ -12,14 +12,14 @@ This GitHub repo contains an obsidian vault with a minimal setup that demonstrat
 - **Community plugins enabled:** TaskNotes
 
 ##### OS version
-<img src="./images/os.PNG" width="40%">
+<img src="./images/os.png" width="40%">
 
 ##### Obsidian Version
-<img src="./images/obsidian_version.PNG" width="100%">
+<img src="./images/obsidian_version.png" width="100%">
 
 
 ##### TaskNotes version
-<img src="./images/tasknotes_version.PNG" width="80%">
+<img src="./images/tasknotes_version.png" width="80%">
 
 ---
 # Vault setup
