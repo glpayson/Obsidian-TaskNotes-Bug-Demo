@@ -33,9 +33,6 @@ These steps are already done and reflect the current state of the vault in GitHu
 1. Create new vault
 2. Turn on community plugins
 3. Install and enable TaskNotes version 3.22.1
-
-![TaskNotes version](./images/tasknotes_version.png)
-
 4. Create file `broken_template` with contents:
   
 ```
