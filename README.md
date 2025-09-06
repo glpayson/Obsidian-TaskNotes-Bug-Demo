@@ -61,6 +61,15 @@ plugin:tasknotes:151 Error during post-layout initialization: TypeError: Cannot 
 
 ![Error example](./images/error.png)
 
+#### Stack trace
+
+```
+plugin:tasknotes:151 Error during post-layout initialization: TypeError: Cannot read properties of null (reading 'id')
+    at yp.scanTasksAndBuildQueue (plugin:tasknotes:142:3012)
+    at async yp.initialize (plugin:tasknotes:142:1802)
+    at async ud.initializeAfterLayoutReady (plugin:tasknotes:151:3182)
+```
+
 ---
 
 # Location in code
