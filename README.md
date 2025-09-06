@@ -47,9 +47,6 @@ tags:
 6. In TaskNotes tab `Task defaults`,  turn on option `Use body template`
 7. In TaskNotes tab `Task defaults`,  set option `Body template file` to `broken_template`
 
-![Error example](./images/error.png)
-
-
 ---
 
 # Reproduction steps
@@ -62,6 +59,7 @@ tags:
 plugin:tasknotes:151 Error during post-layout initialization: TypeError: Cannot read properties of null (reading 'id')
 ```
 
+![Error example](./images/error.png)
 
 ---
 
